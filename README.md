@@ -1,1 +1,1 @@
-# pripramod.github.io
+# pripramot
