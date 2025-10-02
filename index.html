@@ -2,91 +2,69 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>บทบรรณาธิการเนติฯ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>บทบรรณาธิการเนติบัณฑิต</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: 'Sarabun', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #90caf9;
+      text-align: center;
+    }
+    .editorial {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .editorial h2 {
+      color: #ffcc80;
+      margin-top: 0;
+    }
+    .meta {
+      font-size: 0.9em;
+      color: #b0bec5;
+      margin-bottom: 10px;
+    }
+    .keywords, .references {
+      margin-top: 10px;
+      font-size: 0.95em;
+    }
+    .keywords span, .references span {
+      background-color: #263238;
+      padding: 4px 8px;
+      margin: 2px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+  </style>
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans">
+<body>
+  <h1>gittisak-gitmint</h1>
 
-  <!-- ส่วนหัวเมนู -->
-  <nav class="bg-gray-800 border-b border-gray-700">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold text-yellow-300">เนติบัณฑิตไทย</h1>
-      <ul class="flex space-x-6 text-sm text-gray-300">
-        <li><a href="#" class="hover:text-yellow-300">หน้าแรก</a></li>
-        <li><a href="#" class="hover:text-yellow-300">บทบรรณาธิการ</a></li>
-        <li><a href="#" class="hover:text-yellow-300">เกี่ยวกับ</a></li>
-      </ul>
+  <div class="editorial">
+    <h2>บทบรรณาธิการ</h2>
+    <div class="meta">เล่มที่: 1 | ภาค: 1 | หน้า: 1</div>
+    <p>การตีความกฎหมายต้องคำนึงถึงเจตนารมณ์ของกฎหมาย ความเป็นธรรม และผลกระทบต่อสิทธิของคู่ความ โดยใช้ดุลพินิจอย่างรอบคอบและอิงหลักนิติธรรม ทั้งนี้ การนำคำพิพากษาศาลฎีกามาใช้เป็นแนวทางในการวิเคราะห์ข้อกฎหมายจะช่วยให้ผู้ศึกษาสามารถเข้าใจหลักการได้อย่างลึกซึ้ง และสามารถประยุกต์ใช้ในทางปฏิบัติได้อย่างมีประสิทธิภาพ โดยเฉพาะในกรณีที่ข้อกฎหมายมีความคลุมเครือหรือมีข้อขัดแย้ง การอ้างอิงแนวคำวินิจฉัยของศาลจะช่วยให้เกิดความชัดเจนและเป็นธรรมต่อทุกฝ่าย</p>
+    <div class="keywords"><strong>คำสำคัญ:</strong>
+      <span>ตีความกฎหมาย</span>
+      <span>คำพิพากษาศาลฎีกา</span>
+      <span>หลักกฎหมาย</span>
+      <span>เจตนารมณ์</span>
+      <span>นิติธรรม</span>
     </div>
-  </nav>
-
-  <!-- ภาพแบนเนอร์ -->
-  <section class="w-full">
-    <img src="banner.jpg" alt="ภาพเกี่ยวกับกฎหมาย" class="w-full h-[600px] object-cover max-h-[600px] sm:h-[400px] sm:max-h-[400px] md:h-[500px] md:max-h-[500px] lg:h-[600px] lg:max-h-[600px]">
-  </section>
-
-  <!-- ช่องค้นหา -->
-  <header class="text-center py-6 border-b border-gray-700">
-    <h2 class="text-2xl font-semibold text-blue-300">รวมบทบรรณาธิการเนติบัณฑิต ภาค 1–78</h2>
-    <p class="text-sm text-gray-400">เรียบเรียงเพื่อการศึกษาและอ้างอิงทางกฎหมาย</p>
-    <div class="mt-4">
-      <input id="searchInput" type="text" placeholder="ค้นหาภาค เช่น ภาค 45" class="px-4 py-2 rounded bg-gray-800 text-gray-100 border border-gray-600 w-64">
+    <div class="references"><strong>อ้างอิง:</strong>
+      <span>คำพิพากษาศาลฎีกา 1234/2560</span>
+      <span>ประมวลกฎหมายอาญา มาตรา 59</span>
     </div>
-  </header>
+  </div>
 
-  <!-- เนื้อหาบทบรรณาธิการ -->
-  <main class="max-w-4xl mx-auto px-4 py-8" id="editorialContainer">
-    <!-- บทบรรณาธิการจะถูกแสดงที่นี่ -->
-  </main>
-
-  <!-- ส่วนท้าย -->
-  <footer class="text-center text-xs text-gray-500 py-6 border-t border-gray-700">
-    © 2025 โดย Jiraphinya | สำหรับการศึกษาและอ้างอิงทางกฎหมาย
-  </footer>
-
-  <!-- JavaScript โหลด JSON และแสดงผล -->
-  <script>
-    let editorials = [];
-
-    async function loadJSON() {
-      const res = await fetch('editorials.json');
-      editorials = await res.json();
-      renderEditorials(editorials);
-    }
-
-    function renderEditorials(data) {
-      const container = document.getElementById('editorialContainer');
-      container.innerHTML = '';
-      data.forEach(item => {
-        container.innerHTML += `
-          <section class="bg-gray-800 rounded-lg shadow-md p-6 mb-6 border border-gray-700">
-            <h3 class="text-xl font-bold text-yellow-300 mb-2">${item.editorial_title}</h3>
-            <div class="text-sm text-gray-400 mb-4">เล่มที่ ${item.volume} | ${item.section} | หน้า ${item.page_range}</div>
-            <p class="text-gray-200 whitespace-pre-line">${item.content}</p>
-            <div class="mt-4">
-              <h4 class="text-sm font-semibold text-gray-300">คำสำคัญ:</h4>
-              <div class="flex flex-wrap gap-2 mt-2">
-                ${item.keywords.map(k => `<span class="bg-gray-700 text-sm px-3 py-1 rounded-full">${k}</span>`).join('')}
-              </div>
-            </div>
-            <div class="mt-4">
-              <h4 class="text-sm font-semibold text-gray-300">อ้างอิง:</h4>
-              <ul class="list-disc list-inside text-gray-400 mt-2">
-                ${item.references.map(r => `<li>${r}</li>`).join('')}
-              </ul>
-            </div>
-          </section>
-        `;
-      });
-    }
-
-    document.getElementById('searchInput').addEventListener('input', function(e) {
-      const keyword = e.target.value.trim();
-      const filtered = editorials.filter(item => item.section.includes(keyword));
-      renderEditorials(filtered);
-    });
-
-    loadJSON();
-  </script>
+  <!-- คุณสามารถคัดลอกบล็อก .editorial นี้ซ้ำสำหรับแต่ละภาค -->
 </body>
 </html>
